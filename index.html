@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <ul class="items">
+        <p id="title">my to do list :</p>
+      </ul>
+
+      <div class="items">
+        <label for="1">Topic: </label><br />
+        <input type="text" class="form-control" name="name" id="1" /><br />
+        <label for="2">Your task: </label><br />
+        <input
+          type="text"
+          class="form-control"
+          name="content"
+          id="2"
+        /><br /><br />
+        <input
+          type="button"
+          class="btn btn-primary"
+          name="botton"
+          id="3"
+          value="Add a task"
+        />
+        <p id="errorMessage"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

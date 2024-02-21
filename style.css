@@ -1,0 +1,38 @@
+.container {
+  margin-top: 30px;
+  display: flex;
+  background-color: rgb(132, 128, 249);
+  background: linear-gradient(to right, rgb(183, 187, 238), rgb(144, 128, 249));
+  border-radius: 15px;
+  height: 680px;
+  padding: 50px;
+}
+.items {
+  width: 50%;
+  list-style-type: none;
+  padding-left: 40px;
+  margin: 16px;
+}
+
+#title {
+  color: blue;
+  font-size: 25px;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+
+input[name="content"],
+input[name="name"] {
+  width: 200px;
+}
+
+#errorMessage {
+  color: red;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+label{
+  color: blue;
+  font-size: 20px;
+}
